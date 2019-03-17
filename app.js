@@ -9,8 +9,10 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
     var sumArr = [];
     sumArr.push(a + b);
+prob1
     sumArr.push('The sum of ' + a + ' and ' + b + ' is ' + sumArr[0] + '.').toString;
     return sumArr;
+
 }
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -25,7 +27,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+    var mulArr = [];
+    mulArr.push(a * b);
+    mulArr.push('The product of ' + a + ' and ' + b + ' is ' + mulArr[0]).toString;
+    return mulArr[1];
 }
 
 // Here is the test for multiply(); uncomment it to run it
