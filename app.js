@@ -9,7 +9,6 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
     var sumArr = [];
     sumArr.push(a + b);
-prob1
     sumArr.push('The sum of ' + a + ' and ' + b + ' is ' + sumArr[0] + '.').toString;
     return sumArr;
 
